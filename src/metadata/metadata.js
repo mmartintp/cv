@@ -1,68 +1,104 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Miguel Martín Tapia',
+  title: '',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Residence': 'Madrid -  Spain',
+    LinkedIn: '<a href="https://www.linkedin.com/in/mmartintp/"><i class="fab fa-linkedin fact-icon"></i>mmartintp</a>',
+    'Email': '<a href="mailto:mmartintp@gmail.com">mmartintp@gmail.com</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['SQL', '+++++'],
+    ['Machine Learning', '+++++'],
+    ['Python', '+++++'],
+    ['BigQuery', '++++'],
+    ['GCP', '++++'],
+    ['ETL', '++++'],
+    ['DWH', '++++'],
+    ['Java', '++++'],
+    ['C++', '++'],
+    ['R', '++'],
+    ['JavaScript', '++'],
+
   ],
-  plays: [
-    {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+  work_experience: [
+    { 
+      title: 'Data Scientist',
+      company: 'Leroy Merlin',
+      dates: '04.2019 - Present',
+      badges: ['GCP', 'Python', 'SQL', 'BigQuery', 'ETL', 'Machine Learning', 'Tensorflow', 'BigQueryML', 'DataStudio', 'Git'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+- Collaborate on creating the in-house tool used to define the regular assortment composition using BigQuery, Python, GKE, PubSub and CloudSQL-PostgreSQL. Created several algorithms as part of the solution (for example, adjusted “web review scores” based on time and number of reviews). 
+- Won one of the prizes in the annual Adeo internal hackathon with a solution to provide the best discount for products at the end of its life using BigQuery, Python and AutoML.
+- Design and develop several ETL processes to move data from a semi-processed state inside the DWH (BigQuery) to a smaller, low latency database in order to be used by APIs and visualization tools. Pentaho Kettle, Python, SQL, GCS.
+- Create a time-series forecasting model PoC for optimizing the monthly objectives with notebooks, Python, Tensorflow for LSTM and FB’s prophet.
+- Create a solution with BigqueryML, for the prediction of the probability of a delivery service arriving later than expected enabling the salespeople to move the delivery date backwards at order-creation time.
+- Coordinate the deployment of a Basket Analysis tool to help salespeople offer the best products to complete a purchase with BigQuery, SpringBoot and Vue.
+- Create different DataStudios to help the business understand its data and take a data-driven decision. BigQuery -> DataStudio.     
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Business Intelligence Consultant',
+      company: 'Capitole Consulting',
+      dates: '10.2018 - 04.2019',
+      badges: ['SQL', 'SAP BO', 'Teradata', 'Python', 'elasticsearch', 'Kibana'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+- Create a machine learning approach to help the business identify under and over-performing products in order to be proactive with the actions around them. Data extracted from Teradata DWH and processed with Python (pandas, scikit-learn)
+- Upgrade a performance tracking tool in the client company by ingesting daily data from Teradata or SAP BO reports, feeding it into elasticsearch and visualizing it with a Custom Vue solution.
+- Help the business analyze data available regarding Stocks, Prices, Sales, Purchases and others using SAP BO and data from the DWH (Teradata)
+
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      title: 'Business Analytics Consultant',
+      company: 'Indra/Minsait',
+      dates: '01.2016 - 02.2017',
+      badges: ['SQL', 'Python', 'ETL', 'SAP BO', 'Knime','Oracle', 'SQL Server', 'SSIS', 'SSRS', 'Microstrategy'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+- Help a Bus Operating company understand its data by designing and developing a reporting solution using Microstrategy and SQL Server.
+- Provide an Airline Company with a complete BI solution in order to be able to analyze the high volume of data they were handling on a daily basis.  SQL Server, SSIS, SSRS.
+- Collaborate in the creation of Machine Learning PoCs for several projects, for example, predicting the electricity usage of consumers in order to anticipate the capacity needed to buy the following days. Python, R, Knime.
+`
+    },
+    {
+      title: 'Jr. Business Analytics Consultant',
+      company: 'Indra/Minsait',
+      dates: '03.2014 - 01.2016',
+      badges: ['SQL', 'ETL', 'SAP BO', 'SAP Data Services', 'Oracle', 'JasperETL', 'Talend OSDI'],
+      contents: `
+- Design a BI solution from scratch for a Railway Company. SAP BO, SQL, Oracle Database, JasperETL
+- Maintain and improve BI solution for another Railway Company. SAP BO, SQL, Oracle Database, SAP Data Services.
+- Design and develop ETL solutions for several Toll Road Operators. SQL, Oracle Database, Talend Open Studio Data Integrator.
+      
 `
     }
   ],
-  experience: [
+  education: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      dates: '2008 - 2013',
+      title: 'University Degree in Computer Science, Minor in Computing at Universidad Carlos III de Madrid.'
+    }
+  ],
+  additional: [
+    {
+      header: '2017-2018 - Stock Market predictions',
+      skills: ['Machine Learning', 'Python', 'ETL', 'MQL', 'C++'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      Operated in the stock market with custom algorithms created as the result of learning new technologies and trying new frameworks.
+      `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: '2015-2017 Football outcomes predictions',
+      skills: ['Python', 'SQL', 'Scrapping'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      Ingested several years of football outcomes and match events from various sources (CSV files, XML files, APIs and scrapped HTMLs) into a MariaDB database. Process the data with Java first, and then migrate to Python and create models to predict the results with moderate success. 
+      `
+    },
+    {
+      header: '2013 TV Show survivability',
+      skills: ['Python', 'SQL', 'Scrapping'],
+      contents: `
+      Created a prediction service using data from several sources(IMDB, XML files) that predicted the probability of a show signing a second season depending on its first episodes’ results.
+      `
     }
   ]
 };

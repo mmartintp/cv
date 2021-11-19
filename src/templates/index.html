@@ -6,13 +6,14 @@
     <title>{{ name }}. {{ title }}</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="container page">
     <div class="row">
         <div class="col-md-6 col-print-6">
+            <img src="mmt.jpg" alt="Miguel Martín" style="border-radius: 50%; width: 100px; height: 100px; text-align: center; margin-left: 125px;">
             <h1>{{ name }}<br/>{{ title }}</h1>
             <p>
                 <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
@@ -46,18 +47,15 @@
     </div>
 
     <p>
-        English poet, playwright and actor, widely regarded as the greatest writer in the English language
-        and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
-        My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
-        two long narrative poems and a few other verses, some of uncertain authorship.
+        I love technology and everything related with Data.
     </p>
 
     <h2>Professional Experience</h2>
-    {{#each plays}}
+    {{#each work_experience}}
     <div class="card mb-4">
         <div class="card-body">
             <h3>{{ title }}</h3>
-            <p class="text-muted">{{ written }}</p>
+            <p class="text-muted"><b>{{ company }} </b> {{ dates }} </p>
 
             {{{markdown contents }}}
 
@@ -69,18 +67,20 @@
         </div>
     </div>
     {{/each}}
-
-    <h2>Education</h2>
-    <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
-
-    <h2>Additional Experience</h2>
-
-    {{#each experience}}
+    <div>
+    <h2>Education</h2>  
+    {{#each education}}
+    <p>{{ dates }} {{ title }}</p>
+    {{/each}}
+    </div>
+    <h2>Additional Projects</h2>
+    
+    {{#each additional}}
     <div class="card mt-4">
         <div class="card-body">
             <div class="mb-2"><strong>{{ header }}</strong></div>
-
-            {{{markdown contents }}}
+            <p>{{{ contents }}}</p>
+            
 
             <div>
                 {{#each skills }}
