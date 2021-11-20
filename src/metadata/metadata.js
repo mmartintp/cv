@@ -8,17 +8,22 @@ module.exports = {
   },
   skills: [
     ['SQL', '+++++'],
-    ['Machine Learning', '+++++'],
+    ['Machine Learning', '++++'],
     ['Python', '+++++'],
     ['BigQuery', '++++'],
     ['GCP', '++++'],
     ['ETL', '++++'],
     ['DWH', '++++'],
     ['Java', '++++'],
+    ['Terraform', '++'],
     ['C++', '++'],
     ['R', '++'],
     ['JavaScript', '++'],
 
+  ],
+  languages: [
+    ['Spanish', '+++++'],
+    ['English', '++++']
   ],
   work_experience: [
     { 

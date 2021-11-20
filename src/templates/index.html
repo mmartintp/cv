@@ -45,6 +45,17 @@
         </div>
         {{/each}}
     </div>
+    <h3 class="screen">Languages</h3>
+    <div class="row mb-4">
+        {{#each languages}}
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+            <small>{{ this.[0] }}</small>
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1">
+            {{ this.[1] }}
+        </div>
+        {{/each}}
+    </div>
 
     <p>
         I love technology and everything related with Data.
