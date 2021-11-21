@@ -18,9 +18,16 @@ module.exports = {
     ['Terraform', '++'],
     ['C++', '++'],
     ['R', '++'],
-    ['JavaScript', '++'],
+    ['Docker', '++'],
 
   ],
+  soft_skills : [
+    ['Problem Solving', '+++++'],
+    ['Teamwork', '++++'],
+    ['Communication', '++++'],
+    ['Adaptability', '++++'],
+  ]
+  ,
   languages: [
     ['Spanish', '+++++'],
     ['English', '++++']
