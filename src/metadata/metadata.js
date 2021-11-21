@@ -78,7 +78,7 @@ module.exports = {
       badges: ['SQL', 'ETL', 'SAP BO', 'SAP Data Services', 'Oracle', 'JasperETL', 'Talend OSDI'],
       contents: `
 - Design a BI solution from scratch for a Railway Company. SAP BO, SQL, Oracle Database, JasperETL
-- Maintain and improve BI solution for another Railway Company. SAP BO, SQL, Oracle Database, SAP Data Services.
+- Maintain and improve a BI solution for another Railway Company. SAP BO, SQL, Oracle Database, SAP Data Services.
 - Design and develop ETL solutions for several Toll Road Operators. SQL, Oracle Database, Talend Open Studio Data Integrator.
       
 `
