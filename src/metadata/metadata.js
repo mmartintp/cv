@@ -1,10 +1,12 @@
 module.exports = {
   name: 'Miguel Martín Tapia',
   title: '',
+  
   facts: {
     'Residence': 'Madrid -  Spain',
     LinkedIn: '<a href="https://www.linkedin.com/in/mmartintp/"><i class="fab fa-linkedin fact-icon"></i>mmartintp</a>',
-    'Email': '<a href="mailto:mmartintp@gmail.com">mmartintp@gmail.com</a>'
+    'Email': '<a href="mailto:mmartintp@gmail.com">mmartintp@gmail.com</a>',
+     BirthDate: '1989-09-18',
   },
   skills: [
     ['SQL', '+++++'],
@@ -37,7 +39,7 @@ module.exports = {
       title: 'Data Scientist',
       company: 'Leroy Merlin',
       dates: '04.2019 - Present',
-      badges: ['GCP', 'Python', 'SQL', 'BigQuery', 'ETL', 'Machine Learning', 'Tensorflow', 'BigQueryML', 'DataStudio', 'Git'],
+      badges: ['GCP', 'Python', 'SQL', 'BigQuery', 'CloudSQL', 'PubSub', 'ETL', 'Machine Learning', 'Tensorflow', 'BigQueryML', 'DataStudio', 'Git'],
       contents: `
 - Collaborate on creating the in-house tool used to define the regular assortment composition using BigQuery, Python, GKE, PubSub and CloudSQL-PostgreSQL. Created several algorithms as part of the solution (for example, adjusted “web review scores” based on time and number of reviews). 
 - Won one of the prizes in the annual Adeo internal hackathon with a solution to provide the best discount for products at the end of its life using BigQuery, Python and AutoML.
