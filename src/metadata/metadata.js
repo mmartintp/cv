@@ -6,6 +6,7 @@ module.exports = {
     'Residence': 'Madrid -  Spain',
     LinkedIn: '<a href="https://www.linkedin.com/in/mmartintp/"><i class="fab fa-linkedin fact-icon"></i>mmartintp</a>',
     'Email': '<a href="mailto:mmartintp@gmail.com">mmartintp@gmail.com</a>',
+     'Phone Number': '+34 654 803 661', 
      BirthDate: '1989-09-18',
   },
   skills: [
